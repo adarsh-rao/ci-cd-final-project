@@ -9,7 +9,7 @@ spec:
 
   steps:  
     - name: remove
-      image: alpine3
+      image: alpine:3
       env:
         - name: WORKSPACE_SOURCE_PATH
           value: $(workspaces.source.path)
